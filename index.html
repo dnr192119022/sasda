@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários de Envio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1> Formularios Global Tech</h1>
+
+        
+        <form autocomplete="off" action="receber.php" method="post">
+            <fieldset>
+                <legend> Dados Pessoais </legend>
+                    <div>
+                        <label for="nome"> Nome Completo: </label>
+                        <input type="text" id="nome" required placeholder="Digite Aqui...">
+                    </div> 
+                    <div>
+                        <label for="cpf"> Digite seu CPF: </label>
+                        <input type="text" name="cpf" id="cpf" required placeholder="...">
+                    </div>
+                    <div>
+                        <label for="end"> Digite seu Endereço: </label>
+                        <input type="text" name="end" id="end" required placeholder="...">
+                    </div>
+                    <div>
+                        <label for="tel"> Telefone: </label>
+                        <input type="tel" name="tel" id="tel" required placeholder="(xx) x xxxx-xxxx">
+                    </div>
+                    <div>
+                        <label for="data"> Data de Nascimento: </label>
+                        <input type="date" name="data_nascimeto" id="data">
+                    <div>
+                    <input type="submit" value="Avançar">
+            </fieldset>
+                <div>
+                    <label for="exp"> Experiências Profissionais: </label>
+                    <textarea name="exp" id="exp" cols="30" rows="10"></textarea>
+                </div>
+            <fieldset>
+                <legend> </legend>
+
+
+
+            </fieldset>
+            <fieldset>
+
+
+
+
+            </fieldset>
+        </form>
+
+
+
+
+    </div>
+    
+</body>
+</html>

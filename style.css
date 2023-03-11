@@ -1,0 +1,11 @@
+body{
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    /* border: 15;  */
+    /* text-align: center; */
+}
